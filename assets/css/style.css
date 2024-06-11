@@ -164,9 +164,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #7d3f60;}
     align-items: center;
     justify-content: center;
     position: relative;
-    background: url(../images/about/welcome-banner.jpeg) repeat-x;
-    background-size: contain; /* Ajusta el tamaño de la imagen según sea necesario */
-    background-position: center;
+    background: url(../images/about/FEED\ FOTOS\ 2024\ \(6\).png) repeat-x;
+    background-size: cover; /* Ajusta el tamaño de la imagen según sea necesario */
+    background-position:center;
     height: 890px;
 }
 .welcome-hero:before{

@@ -123,5 +123,27 @@ $(document).ready(function(){
             $(".header-text a").addClass("animated fadeInDown").css({'opacity':'0'});
         });
 
+		
 });	
 	
+
+
+document.addEventListener("DOMContentLoaded", function () {
+	const elements = document.querySelectorAll(".animate-on-scroll");
+
+	function checkVisibility() {
+		const windowHeight = window.innerHeight;
+		elements.forEach(element => {
+			const rect = element.getBoundingClientRect();
+			if (rect.top < windowHeight - 10) { // Adjust threshold as needed
+				element.classList.add("visible");
+			}
+		});
+	}
+
+	window.addEventListener("scroll", checkVisibility);
+	window.addEventListener("resize", checkVisibility);
+
+	// Initial check
+	checkVisibility();
+});

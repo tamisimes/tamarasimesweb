@@ -40,6 +40,7 @@
 	.experience-time span>i {left: -6%;top: 6%;}
 	.main-timeline:before {left:0.4%;}
 
+
 	.single-horizontal-timeline .experience-time,.single-horizontal-timeline .timeline-content {margin: 0;}
 }/*max-width:991px*/
 
@@ -99,8 +100,13 @@
 
 @media screen and (max-width:992px){
 	nav.navbar.bootsnav .navbar-collapse.collapse.in {padding-bottom: 30px;}
-	nav.navbar.bootsnav .navbar-toggle {display: inline-block; float: right;margin-right: 0;margin-top: 21px;}
+	nav.navbar.bootsnav .navbar-toggle {display: inline-block; float:right; margin-right: 0;margin-top: 21px;}
 	nav.navbar.bootsnav .navbar-brand {float: left!important;}
 	nav.navbar.bootsnav ul.nav > li > a {padding: 15px 0px;border: transparent;}
 }/*max-width:992px*/
 
+@media screen and (min-width:992px) {
+	.experience-content {padding-top: 100px; padding-left: 65px;}
+
+	
+}

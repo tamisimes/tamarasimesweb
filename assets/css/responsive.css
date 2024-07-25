@@ -48,8 +48,11 @@
 }/*max-width:768px*/
 
 @media screen and (max-width:767px){
-	.single-about-img {max-width: 450px;}
-	.experience-time span>i,.timeline-content span>i,.main-timeline:before {display: none;}
+	.single-about-img {
+        max-width: 400px;
+        display: block;
+        margin: 0 auto; 
+    }	.experience-time span>i,.timeline-content span>i,.main-timeline:before {display: none;}
 	.experience-time, .timeline-content {margin-left: 0;}
 
 	.isotope .item {max-width: 350px;margin: 0 auto 30px;}
@@ -100,3 +103,4 @@
 	nav.navbar.bootsnav .navbar-brand {float: left!important;}
 	nav.navbar.bootsnav ul.nav > li > a {padding: 15px 0px;border: transparent;}
 }/*max-width:992px*/
+
